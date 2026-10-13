@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Flexe Click</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">FLEXE <span>CLICK</span></div>
+
+        <ul class="nav-links">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="order.php">Order Now</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Our Services</h1>
+    <p>Explore our professional services.</p>
+</section>
+
+<section class="section">
+
+    <div class="cards">
+
+     <div class="cards">
+
+  <div class="card">
+    <img src="images/stickers.jpg" alt="Sticker Printing">
+    <h3>Sticker Design & Printing</h3>
+    <p>Creative and professional stickers for businesses and personal use</p>
+  </div>
+
+  <div class="card">
+    <img src="images/banner.jpg" alt="Banner Printing">
+    <h3>Banner Design & Printing</h3>
+    <p>Attractive banners for events, advertisements and promotions.</p>
+  </div>
+
+  <div class="card">
+    <img src="images/designe.jpg" alt="Graphic Design">
+    <h3>Graphic Design</h3>
+    <p>Professional and creative graphic design solutions</p>
+  </div>
+
+  <div class="card">
+    <img src="images/passport.jpg" alt="Passport Photographs">
+    <h3>Passport Photographs</h3>
+    <p>Passport photograph services for official documentation.</p>
+  </div>
+
+</div>   
+       
+        <div class="card">
+            <h3>Other Printing Services</h3>
+            <p>Other printing-related services based on customer requirements.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Flexe Click Printing Press.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
