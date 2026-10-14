@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexe Click Printing Press</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -14,11 +14,11 @@
         <div class="logo">FLEXE <span>CLICK</span></div>
 
         <ul class="nav-links">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="services.php">Services</a></li>
-            <li><a href="order.php">Order Now</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.php">About</a></li>
+            <li><a href="/services.php">Services</a></li>
+            <li><a href="/order.php">Order Now</a></li>
+            <li><a href="/contact.php">Contact</a></li>
         </ul>
 
         <button class="menu-btn" onclick="toggleMenu()">☰</button>
@@ -33,8 +33,8 @@
             banners, stickers, documents and more.
         </p>
 
-        <a href="order.php" class="btn">Order Now</a>
-        <a href="services.php" class="btn secondary">Our Services</a>
+        <a href="/order.php" class="btn">Order Now</a>
+        <a href="/services.php" class="btn secondary">Our Services</a>
     </div>
 </section>
 
@@ -77,7 +77,7 @@
 <section class="cta">
     <h2>Need Professional Printing Services?</h2>
     <p>Contact Flexe Click Printing Press today.</p>
-    <a href="contact.php" class="btn">Contact Us</a>
+    <a href="/contact.php" class="btn">Contact Us</a>
 </section>
 
 <footer>
@@ -85,7 +85,7 @@
     <p>Low-Cost, Keffi, Beside Keystone Bank, Nasarawa State</p>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="/js/script.js"></script>
 
 </body>
 </html>
