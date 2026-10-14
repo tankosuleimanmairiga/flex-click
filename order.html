@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now - Flexe Click</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">FLEXE <span>CLICK</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="order.html">Order Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Place Your Order</h1>
+    <p>Fill the form below to order your printing job.</p>
+</section>
+
+<section class="section">
+    <form class="order-form" action="https://formspree.io/f/your-id" method="POST" style="max-width:500px; margin:auto; display:flex; flex-direction:column; gap:15px;">
+        <input type="text" name="name" placeholder="Your Full Name" required style="padding:12px;">
+        <input type="tel" name="phone" placeholder="Your WhatsApp Number" required style="padding:12px;">
+        <select name="service" required style="padding:12px;">
+            <option value="">Select Service</option>
+            <option>Sticker Design & Printing</option>
+            <option>Banner Design & Printing</option>
+            <option>Graphic Design</option>
+            <option>Passport Photographs</option>
+            <option>Other Printing Services</option>
+        </select>
+        <textarea name="details" placeholder="Describe what you want to print..." rows="5" required style="padding:12px;"></textarea>
+        <button type="submit" style="padding:12px; background:#111; color:#fff; border:none; cursor:pointer;">Send Order on WhatsApp</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Flexe Click Printing Press.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
